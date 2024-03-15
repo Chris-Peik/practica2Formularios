@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8' />
+        <title>Practica 2: Formulario</title>
+    </head>
+    <body>
+       <form method="POST">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <label>Nombre:</label>
+                            <input id="nom" type="text"/>
+                        </td>
+                        <td colspan="2">
+                            <label>Ap. Paterno:</label>
+                            <input id="apP" type="text"/>
+                        </td>
+                        <td colspan="2">
+                            <label>Ap Materno:</label>
+                            <input id="apM" type="text"/>
+                        </td>                        
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <label>Fecha Nacimiento:</label>
+                            <input id="birth" type="date"/>
+                        </td>
+                        <td colspan="3">
+                            <label>Sgno Zodiacal:</label>
+                            <select name="zodiac">
+                                <option selected value="Aries">Aries</option>
+                                <option value="Tauro">Tauro</option>
+                                <option value="Geminis">Geminis</option>
+                                <option value="Cancer">Cancer</option>
+                                <option value="Leo">Leo</option>
+                                <option value="Virgo">Virgo</option>
+                                <option value="Libra">Libra</option>
+                                <option value="Escorpio">Escorpio</option>
+                                <option value="Sagitario">Sagitario</option>
+                                <option value="Capricornio">Capricornio</option>
+                                <option value="Acuario">Acuario</option>
+                                <option value="Piscis">Piscis</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <label>Sexo:</label>
+                            <input id="M" name ="sexo" type="radio"/>
+                            <label>Masculino</label>
+                            <input id="M" name ="sexo" type="radio"/>
+                            <label>Femenino</label>
+                        </td>
+                        <td colspan="3">
+                            <label>CURP:</label>
+                            <input id="curp" type="text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <label>Direccion:</label>
+                            <input id="addres" type="text"/>
+                        </td>
+                        <td colspan="2">Edo</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">
+                            <label>Codigo Postal:</label>
+                            <input id="cp" type="number"/>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Datos de la Cuenta</legend>
+                <table border="1px">
+                    <tr>
+                        <td>
+                            <label>Usuario:</label>
+                            <input id="user" type="text"/>
+                        </td>                       
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Contraseña:</label>
+                            <input id="pass" type="password"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Correo Electronico:</label>
+                            <input id="email" type="email"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Telefono:</label>
+                            <input id="phone" type="tel"/>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Otra Información</legend>
+                <table border="1px">
+                    <tr>
+                        <th colspan="4">Lenguajes Favoritos</th>                       
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="c" type="checkbox"/>
+                            <label>C</label>
+                        </td>
+                        <td>
+                            <input id="c++" type="checkbox"/>
+                            <label>C++</label>
+                        </td>
+                        <td>
+                            <input id="java" type="checkbox"/>
+                            <label>Java</label>
+                        </td>
+                        <td>
+                            <input id="py" type="checkbox"/>
+                            <label>Pyhton</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="otro" type="checkbox"/>
+                            <label>Otro</label>
+                        </td>
+                        <td colspan="3">
+                            <input id="nomOtro" type="text" placeholder="¿Cual otro?"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">Pasatiempos:</td>                       
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="hobbie">
+                                <option value="Aguascalientes">Aguascalientes</option>
+                                <option value="Baja California">Baja California</option>
+                                <option value="Baja California Sur">Baja California Sur</option>
+                                <option value="Campeche">Campeche</option>
+                                <option value="Chiapas">Chiapas</option>
+                                <option value="Chihuahua">Chihuahua</option>
+                                <option value="CDMX">Ciudad de México</option>
+                                <option value="Coahuila">Coahuila</option>
+                                <option value="Colima">Colima</option>
+                                <option value="Durango">Durango</option>
+                                <option value="Estado de México">Estado de México</option>
+                                <option value="Guanajuato">Guanajuato</option>
+                                <option value="Guerrero">Guerrero</option>
+                                <option value="Hidalgo">Hidalgo</option>
+                                <option value="Jalisco">Jalisco</option>
+                                <option value="Michoacán">Michoacán</option>
+                                <option value="Morelos">Morelos</option>
+                                <option value="Nayarit">Nayarit</option>
+                                <option value="Nuevo León">Nuevo León</option>
+                                <option value="Oaxaca">Oaxaca</option>
+                                <option value="Puebla">Puebla</option>
+                                <option value="Querétaro">Querétaro</option>
+                                <option value="Quintana Roo">Quintana Roo</option>
+                                <option value="San Luis Potosí">San Luis Potosí</option>
+                                <option value="Sinaloa">Sinaloa</option>
+                                <option value="Sonora">Sonora</option>
+                                <option value="Tabasco">Tabasco</option>
+                                <option value="Tamaulipas">Tamaulipas</option>
+                                <option value="Tlaxcala">Tlaxcala</option>
+                                <option value="Veracruz">Veracruz</option>
+                                <option value="Yucatán">Yucatán</option>
+                                <option value="Zacatecas">Zacatecas</option>
+                              </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <label>Color Favorito:</label>
+                        
+                            <input id="colorF" type="color"/>
+                        </td>                       
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <label>Comentario:</label>
+                        </td>                       
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea id="comment" rows="5" placeholder="Ingresa tu comentario"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit"/>
+            <input type="reset"/>
+       </form>
+    </body>
+</html>
